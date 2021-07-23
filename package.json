@@ -1,0 +1,15 @@
+{
+  "name": "dius_shopping",
+  "version": "1.0.0",
+  "description": "dius_shopping",
+  "main": "index.js",
+  "author": "Nicholas Albion",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
