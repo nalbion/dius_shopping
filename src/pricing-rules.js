@@ -11,10 +11,6 @@ class PricingRules {
     priceForItem(sku) {
         return this.prices[sku];
     }
-    
-    priceForItems(sku, quantity) {
-        return this.prices[sku] * quantity;
-    }
 
     /**
      * @param {Array<{ sku: string, price: number }>} basket
